@@ -3,21 +3,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Active Meal Prep - High-Protein Meal Prep for Busy Active People</title>
-  <meta name="description" content="Simple recipes, practical systems and follow-along meal prep videos to help you get your food sorted for the week. Join the newsletter and get a free 7-Day High-Protein Meal Prep Starter Plan." />
+  <title>Active Meal Prep — High-Protein Meal Prep for Busy Active People</title>
+  <meta name="description" content="Simple recipes, practical systems and meal prep videos. Get the free 7-Day High-Protein Starter Plan." />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <header class="site-header">
-    <div class="container header-inner">
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
       <span class="logo">Active Meal Prep</span>
-      <a href="#newsletter" class="btn btn-ghost btn-small">Get the free plan</a>
+      <a href="#newsletter" class="btn-nav">Get the free plan</a>
     </div>
   </header>
 
@@ -25,131 +25,89 @@
 
     <!-- Hero -->
     <section class="hero">
-      <div class="hero-glow" aria-hidden="true"></div>
-      <div class="container hero-inner">
-        <span class="eyebrow">Simple &middot; Practical &middot; Consistent</span>
-        <h1>High-protein meal prep for busy active people.</h1>
-        <p class="subheadline">Simple recipes, practical systems and follow-along meal prep videos to help you get your food sorted for the week.</p>
-        <div class="hero-actions">
-          <a href="#newsletter" class="btn btn-primary">Join the newsletter</a>
-          <p class="hero-note">Free 7-day starter plan &middot; No spam, ever.</p>
-        </div>
+      <div class="hero-content">
+        <h1>High-protein meal prep<br>for busy active people.</h1>
+        <a href="#newsletter" class="btn-primary">Get the free starter plan</a>
       </div>
     </section>
 
-    <!-- Benefits -->
-    <section class="benefits">
-      <div class="container">
-        <div class="section-heading">
-          <span class="eyebrow">Why it works</span>
-          <h2>A system you'll actually stick to</h2>
-        </div>
-        <div class="benefits-grid">
-          <div class="benefit">
-            <div class="benefit-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21c0-6 4-12 14-14-2 10-8 14-14 14Z"/><path d="M5 21c1.5-3 3.5-5.5 6-7"/></svg>
-            </div>
-            <h3>Simple</h3>
-            <p>No complicated diets or fads &mdash; just straightforward meals you can actually stick to.</p>
+    <!-- Recipes -->
+    <section class="recipes">
+      <div class="recipes-grid">
+
+        <article class="recipe-card">
+          <div class="recipe-img-wrap">
+            <img src="assets/overnight-oats.jpg" alt="Overnight Oats" loading="lazy" />
           </div>
-          <div class="benefit">
-            <div class="benefit-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="0.5" fill="currentColor"/></svg>
-            </div>
-            <h3>Practical</h3>
-            <p>Systems built for real life: training, work, and everything in between.</p>
+          <div class="recipe-label">
+            <span class="recipe-name">Overnight Oats</span>
+            <span class="recipe-meta">High-protein &middot; 5 min prep</span>
           </div>
-          <div class="benefit">
-            <div class="benefit-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 15-6.7M21 12a9 9 0 0 1-15 6.7"/><path d="M18 3v3h-3M6 21v-3h3"/></svg>
-            </div>
-            <h3>Consistent</h3>
-            <p>Repeatable routines that make healthy eating the easy choice, every week.</p>
+        </article>
+
+        <article class="recipe-card">
+          <div class="recipe-img-wrap">
+            <img src="assets/chia-pudding.jpg" alt="Chia Pudding" loading="lazy" />
           </div>
-          <div class="benefit">
-            <div class="benefit-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 6v5c0 4.5 3.4 7.5 8 9 4.6-1.5 8-4.5 8-9V6Z"/><path d="m9 12 2 2 4-4"/></svg>
-            </div>
-            <h3>Evidence-informed</h3>
-            <p>Practical advice grounded in nutrition fundamentals, not bro-science.</p>
+          <div class="recipe-label">
+            <span class="recipe-name">Chia Pudding</span>
+            <span class="recipe-meta">High-protein &middot; Make ahead</span>
           </div>
-        </div>
+        </article>
+
+        <article class="recipe-card">
+          <div class="recipe-img-wrap">
+            <img src="assets/chicken-rice.jpg" alt="Chicken &amp; Rice" loading="lazy" />
+          </div>
+          <div class="recipe-label">
+            <span class="recipe-name">Chicken &amp; Rice</span>
+            <span class="recipe-meta">High-protein &middot; Batch cook</span>
+          </div>
+        </article>
+
       </div>
     </section>
 
-    <!-- What you'll get -->
-    <section class="whats-included">
-      <div class="container">
-        <div class="section-heading">
-          <span class="eyebrow">What's inside</span>
-          <h2>What you'll get</h2>
-        </div>
-        <div class="included-grid">
-          <div class="included-item">
-            <div class="included-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></svg>
-            </div>
-            <h3>Simple recipes</h3>
-            <p>High-protein meals that are quick to make and easy to repeat.</p>
-          </div>
-          <div class="included-item">
-            <div class="included-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg>
-            </div>
-            <h3>Practical systems</h3>
-            <p>Plans and routines designed to fit around a busy schedule.</p>
-          </div>
-          <div class="included-item">
-            <div class="included-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M10.5 9.3v5.4a.6.6 0 0 0 .91.51l4.5-2.7a.6.6 0 0 0 0-1.02l-4.5-2.7a.6.6 0 0 0-.91.51Z" fill="currentColor" stroke="none"/></svg>
-            </div>
-            <h3>Follow-along videos</h3>
-            <p>Step-by-step meal prep videos so you know exactly what to do.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Newsletter signup -->
+    <!-- Newsletter -->
     <section class="newsletter" id="newsletter">
-      <div class="container">
-        <div class="newsletter-card">
-          <span class="eyebrow eyebrow-on-dark">Free starter plan</span>
-          <h2>Get your free 7-Day High-Protein Meal Prep Starter Plan</h2>
-          <p>Join the newsletter and get a free, practical starter plan to help you build a week of high-protein meals &mdash; plus future updates on recipes, systems and videos.</p>
+      <div class="newsletter-inner">
+        <span class="eyebrow">Free starter plan</span>
+        <h2>7 days of high-protein meals, ready to go.</h2>
+        <p>Join the newsletter and get a free practical plan, plus weekly recipes and meal prep ideas.</p>
 
-          <!-- Brevo embed code placeholder -->
-          <div class="brevo-embed">
-            <!-- BREVO_EMBED_CODE_PLACEHOLDER -->
-          </div>
-
-          <p class="newsletter-note">No spam. Unsubscribe anytime.</p>
+        <!-- Brevo embed code placeholder -->
+        <div class="brevo-embed">
+          <!-- BREVO_EMBED_CODE_PLACEHOLDER -->
         </div>
-      </div>
-    </section>
 
-    <!-- Social links -->
-    <section class="social">
-      <div class="container social-inner">
-        <span class="eyebrow">Stay connected</span>
-        <h2>Follow along</h2>
-        <div class="social-links">
-          <a href="#" class="social-link">Instagram</a>
-          <a href="#" class="social-link">YouTube</a>
-          <a href="#" class="social-link">TikTok</a>
-        </div>
+        <p class="newsletter-note">No spam. Unsubscribe anytime.</p>
       </div>
     </section>
 
   </main>
 
   <footer class="site-footer">
-    <div class="container footer-inner">
-      <span class="logo">Active Meal Prep</span>
-      <p class="footer-tagline">Simple systems for high-protein meal prep.</p>
-      <p class="footer-copyright">&copy; <span id="year">2026</span> Active Meal Prep. All rights reserved.</p>
+    <div class="footer-inner">
+      <span class="logo logo-dark">Active Meal Prep</span>
+      <div class="footer-social">
+        <a href="#">Instagram</a>
+        <a href="#">YouTube</a>
+        <a href="#">TikTok</a>
+      </div>
+      <p class="footer-copy">&copy; <span id="year">2026</span> Active Meal Prep</p>
     </div>
   </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const header = document.getElementById('site-header');
+    const hero   = document.querySelector('.hero');
+    new IntersectionObserver(
+      ([e]) => header.classList.toggle('scrolled', !e.isIntersecting),
+      { threshold: 0 }
+    ).observe(hero);
+  </script>
 
 </body>
 </html>
